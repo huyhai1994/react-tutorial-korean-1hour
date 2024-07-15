@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
-/*TODO: useState -> 상태를 관리해주는 함수*/
+/*TODO: useState -> 상태를 관리해주는 함수(동적값 - state)*/
 
 const Counter = () => {
     const [num, setNumber] = useState(0);
-    /*TODO:num 는 0 기본값으로 시작함 (변수)*/
+    /*TODO:num 는 0 초기값으로 시작함 (변수)*/
     /*TODO: setNumber 는 앞에 정의한 num 변수에 대한 세트함수임*/
     const increase = () => {
         setNumber(num + 1);
