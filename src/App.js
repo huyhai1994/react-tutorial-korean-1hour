@@ -3,6 +3,7 @@ import {Routes, Route, Link} from 'react-router-dom';
 import './App.css';
 import Home from './pages/Home';
 import About from "./pages/About";
+import Counter from "./pages/Counter";
 
 function App() {
     /*TODO: App component -> index.html (div)에 넣어줌 */
@@ -15,11 +16,13 @@ function App() {
             <Link to="/">Home </Link> |
             {/*TODO: Home 크릭 할때는 Route 를 찾고 해당할 element
                     찾아냄*/}
-            <Link to="/about">About </Link>
+            <Link to="/about">About </Link>|
+            <Link to="/counter">Counter</Link>
             <Routes>
                 {/*TODO:화면이 전환해줌*/}
                 <Route path='/' element={<Home/>}/>
                 <Route path='/about' element={<About/>}/>
+                <Route path='/counter' element={<Counter/>}/>
             </Routes>
         </nav>
     </div>);
