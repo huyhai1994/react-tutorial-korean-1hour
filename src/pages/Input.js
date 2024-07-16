@@ -9,6 +9,7 @@ const Input = () => {
 
     }
     return <div>
+        {/*TODO: Sau khi biên dịch, biểu thức JSX trở thành các đối tượng JavaScript thông thường. Điều này có nghĩa là bạn có thể sử dụng JSX bên trong các câu lệnh if và cho các vòng lặp, gán nó cho các biến, chấp nhận nó như các đối số, và trả về nó từ các hàm.*/}
         <input type="text" value={txtValue} onChange={onChange}/>
         <br/>
         <p>{txtValue}</p>

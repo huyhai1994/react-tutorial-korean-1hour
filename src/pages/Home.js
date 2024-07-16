@@ -1,6 +1,8 @@
 import React from 'react';
 
 /*TODO: 리액트에서 함수형 컴퍼넌트 안녕하세요!
+        Với class component, element là đối tượng mà hàm render của thành phần đó trả về.
+        Với function component, element là đối tượng mà hàm trả về.
 *       Component – Làm việc với React là làm việc với các Component.
 *       Bạn cần tư duy mọi thứ theo hướng component.
 *        Component sẽ giúp bạn dễ dàng chỉnh sửa,
